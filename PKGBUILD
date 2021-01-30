@@ -1,5 +1,5 @@
 pkgname=colordiff
-pkgver=1.0.18
+pkgver=1.0.19
 pkgrel=1
 pkgdesc="A Perl script wrapper for 'diff' that produces the same output but with pretty 'syntax' highlighting"
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=('perl' 'diffutils')
 makedepends=('xmlto' 'w3m')
 backup=('etc/colordiffrc' 'etc/colordiffrc-lightbg')
 source=(http://www.colordiff.org/${pkgname}-${pkgver}.tar.gz)
-sha256sums=('29cfecd8854d6e19c96182ee13706b84622d7b256077df19fbd6a5452c30d6e0')
+sha256sums=('46e8c14d87f6c4b77a273cdd97020fda88d5b2be42cf015d5d84aca3dfff3b19')
 
 build() {
   cd ${pkgname}-${pkgver}
