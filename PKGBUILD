@@ -1,5 +1,5 @@
 pkgname=colordiff
-pkgver=1.0.20
+pkgver=1.0.21
 pkgrel=1
 pkgdesc="A Perl script wrapper for 'diff' that produces the same output but with pretty 'syntax' highlighting"
 arch=('x86_64')
@@ -8,7 +8,7 @@ license=('GPL')
 depends=('perl' 'diffutils')
 backup=('etc/colordiffrc' 'etc/colordiffrc-lightbg')
 source=("https://www.colordiff.org/archive/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('e3b2017beeb9f619ebc3b15392f22810c882d1b657aab189623cffef351d7bcd')
+sha256sums=('9b30f4257ef0f0806dea5a27c9ad8edc3f7999f05ddaff6f0627064dc927e615')
 
 package() {
 	cd "${pkgname}-${pkgver}"
